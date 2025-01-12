@@ -78,41 +78,6 @@ Key hyperparameters:
 - `num_expansions (n)`: Number of children nodes to expand (default: 5)
 - `max_rollouts (k)`: Maximum number of trajectories to sample (default: 50)
 
-## Supported Environments
-
-LATS has been tested on the following environments:
-
-### HotpotQA
-- Multi-hop question answering
-- Uses Wikipedia web API for information retrieval
-- Sample usage in `hotpotqa_example.py`
-
-### Programming (HumanEval/MBPP)
-- Program synthesis from natural language
-- Uses test suites for external feedback
-- Sample usage in `programming_example.py`
-
-### WebShop
-- Interactive web navigation task
-- Simulated e-commerce environment
-- Sample usage in `webshop_example.py`
-
-### Game of 24
-- Mathematical reasoning challenge
-- Pure internal reasoning task
-- Sample usage in `game24_example.py`
-
-## Results
-
-Performance comparisons on key benchmarks:
-
-| Task | Model | Metric | LATS Score | Previous SOTA |
-|------|--------|---------|------------|---------------|
-| HumanEval | GPT-4 | Pass@1 | 92.7 | 91.0 |
-| HotpotQA | GPT-3.5 | EM | 0.71 | 0.54 |
-| WebShop | GPT-3.5 | Score | 75.9 | 67.5 |
-| Game of 24 | GPT-3.5 | Success Rate | 0.44 | 0.40 |
-
 ## Citation
 
 If you use LATS in your research, please cite:
