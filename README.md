@@ -1,6 +1,6 @@
 # Lats-Agent-RecSys using LlamaIndex
 
-This repository demonstrates a practical implementation of Language Agent Tree Search (LATS) using LlamaIndex in building an intelligent product recommendation system. Built with Streamlit and powered by the SambaNova LLM, the application provides personalized product recommendations across multiple categories including Cameras, Laptops, Smartphones, and Smart Home Devices. The system integrates real-time market data through DuckDuckGo search, allowing for up-to-date recommendations based on user preferences, budget constraints, and specific feature requirements. This implementation showcases LATS's capability to combine reasoning (understanding user requirements), acting (searching product information), and planning (constructing optimal recommendations) in a real-world application.
+This repository demonstrates a practical implementation of ``Language Agent Tree Search (LATS)`` using ``LlamaIndex`` in building an intelligent product recommendation system. Built with ``Streamlit`` and powered by the ``SambaNova LLM``, the application provides personalized product recommendations across multiple categories including Cameras, Laptops, Smartphones, and Smart Home Devices. The system integrates real-time market data through ``DuckDuckGo search``, allowing for up-to-date recommendations based on user preferences, budget constraints, and specific feature requirements. 
 
 ### Language Agent Tree Search (LATS)
 
