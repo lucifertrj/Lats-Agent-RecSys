@@ -6,7 +6,7 @@ This repository demonstrates a practical implementation of ``Language Agent Tree
 
 [![Paper](https://img.shields.io/badge/paper-arxiv%202023-red)](https://arxiv.org/pdf/2310.04406)
 
-This repository contains the official implementation of "Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models" (ICML 2024).
+This repository contains the official implementation of "Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models" 
 
 ## Overview
 
