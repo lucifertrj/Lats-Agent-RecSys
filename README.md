@@ -4,7 +4,7 @@ This repository demonstrates a practical implementation of ``Language Agent Tree
 
 ### Language Agent Tree Search (LATS)
 
-[![Paper](https://img.shields.io/badge/paper-ICML%202024-blue)](https://arxiv.org/pdf/2310.04406)
+[![Paper](https://img.shields.io/badge/paper-arxiv%202023-red)](https://arxiv.org/pdf/2310.04406)
 
 This repository contains the official implementation of "Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models" (ICML 2024).
 
