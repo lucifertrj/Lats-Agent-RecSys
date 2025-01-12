@@ -47,7 +47,8 @@ LATS consists of the following key components:
 ### Basic Example
 
 ```python
-from lats import LATSAgentWorker, AgentRunner
+from llama_index.agent.lats import LATSAgentWorker
+from llama_index.core.agent import AgentRunner
 from llama_index.llms.sambanovasystems import SambaNovaCloud
 
 # Initialize the LM
@@ -60,10 +61,11 @@ llm = SambaNovaCloud(
 
 # Setup the LATS agent
 agent_worker = LATSAgentWorker(
-    tools=[search_tool],  # Your defined tools
-    num_expansions=2,
-    max_rollouts=2,
-)
+            tools=[search_tool],
+            llm=llm
+            num_expansions=2,
+            max_rollouts=2,
+            verbose=True) 
 agent = AgentRunner(agent_worker)
 
 # Run inference
