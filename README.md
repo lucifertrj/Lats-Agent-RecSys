@@ -1,5 +1,8 @@
 # Lats-Agent-RecSys using LlamaIndex
 
+### Step-by-Step tutorial
+[![lats](https://img.youtube.com/vi/22NIh1LZvEY/0.jpg)](https://www.youtube.com/watch?v=22NIh1LZvEY)
+
 This repository demonstrates a practical implementation of ``Language Agent Tree Search (LATS)`` using ``LlamaIndex`` in building an intelligent product recommendation system. Built with ``Streamlit`` and powered by the ``SambaNova LLM``, the application provides personalized product recommendations across multiple categories including Cameras, Laptops, Smartphones, and Smart Home Devices. The system integrates real-time market data through ``DuckDuckGo search``, allowing for up-to-date recommendations based on user preferences, budget constraints, and specific feature requirements. 
 
 ### Language Agent Tree Search (LATS)
@@ -77,6 +80,9 @@ response = agent.chat(query)
 Key hyperparameters:
 - `num_expansions (n)`: Number of children nodes to expand (default: 5)
 - `max_rollouts (k)`: Maximum number of trajectories to sample (default: 50)
+
+[![lats](https://img.youtube.com/vi/22NIh1LZvEY/0.jpg)](https://www.youtube.com/watch?v=22NIh1LZvEY)
+⭐️ LIKE ⭐️ SUBSCRIBE ⭐️ SHARE ⭐️ 
 
 ## Citation
 
